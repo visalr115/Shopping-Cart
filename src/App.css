@@ -3,4 +3,32 @@
   height: 60px;
   padding: 20px;
 }
-
+.searchbar{
+  margin-left: 48px;
+  padding: 11px;
+  width: 800px;
+  border: none;
+  font-size: 17px;
+}
+.green{
+  background: rgb(3, 99, 40);
+  border: none;
+  padding: 14px;
+  width: 70px;
+  cursor: pointer;
+}
+.fa-search{
+  color: white;
+  font-size: 15px;
+}
+.fa-user-circle-o{
+  margin-top: -15px;
+  color: white;
+  font-size: 45px;
+  margin-left: 30px;
+}
+.fa-shopping-cart{
+  padding: 20px;
+  color: white;
+  font-size: 45px;
+}
