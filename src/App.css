@@ -1,14 +1,15 @@
 .App-header {
   background-color: #222;
-  height: 60px;
   padding: 20px;
 }
 .searchbar{
-  margin-left: 48px;
+  margin-left: 2%;
   padding: 11px;
-  width: 800px;
+  width: 60%;
   border: none;
   font-size: 17px;
+  border-top-left-radius:5px;
+  border-bottom-left-radius:5px;
 }
 .green{
   background: rgb(3, 99, 40);
@@ -16,6 +17,8 @@
   padding: 14px;
   width: 70px;
   cursor: pointer;
+  border-top-right-radius:5px;
+  border-bottom-right-radius:5px;
 }
 .fa-search{
   color: white;
@@ -25,10 +28,98 @@
   margin-top: -15px;
   color: white;
   font-size: 45px;
-  margin-left: 30px;
+  margin-left: 2%;
 }
 .fa-shopping-cart{
-  padding: 20px;
   color: white;
   font-size: 45px;
+  margin-left: 2%;
+}
+.box{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.small{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 280px;
+  height: 480px;
+}
+.small:hover{
+  box-shadow: 1px 1px 5px #888888,
+              -1px -1px 5px #888888;
+  transition: 500ms;
+}
+.small h3{
+  margin: 0px;
+  margin-bottom: 1%;
+  padding: 0px;
+  color: grey;
+}
+.small h2{
+  margin: 0px;
+  margin-bottom: 1%;
+  padding: 0px;
+  color: grey;
+}
+.proimg{
+  height: 65%;
+  width: 100%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.proimg img{
+  height: 95%;
+  width: 95%;
+}
+.proimg img:hover{
+  height: 100%;
+  width: 100%;
+  transition: 500ms;
+}
+.quantity{
+  margin-bottom: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.incdec{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid grey;
+  background-color: white;
+  color: blue;
+  outline: 0px;
+  font-size: 20px;
+  padding: 1%;
+}
+.quant{
+  border-radius: 5px;
+  outline: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 20px;
+  width: 50px;
+}
+.buynow{
+  height: 35px;
+  width: 70%;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 0px;
+}
+.buynow:hover{
+  box-shadow: 1px 1px 5px #888888,
+              -1px -1px 5px #888888;
+  transition: 200ms;
 }
