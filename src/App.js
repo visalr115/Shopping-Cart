@@ -19,7 +19,7 @@ class App extends Component {
             </div>
             <h3>Product Name</h3>
             <h2>Price</h2>
-            <button className="buynow">Add To Cart</button>
+             <button className="buynow">Add To Cart</button>
           </div>
           <div className="small">
             <div className="proimg">
